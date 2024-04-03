@@ -6,7 +6,7 @@ import time
 def get_website_title(url):
 
   # Specify the path to your WebDriver executable
-  driver_path = './mac_arm64_chromedriver'  # Change this to the path of your WebDriver
+  driver_path = '/location/of/chromedriver'  # Change this to the path of your WebDriver
   
   # Initialize the WebDriver (this example uses Chrome)
   service = Service(executable_path=driver_path)
